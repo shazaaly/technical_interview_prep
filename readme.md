@@ -44,15 +44,21 @@ We welcome contributions from everyone. Here's how you can contribute:
 ## Resources
 
 - [Tech Interview Handbook](https://techinterviewhandbook.org)
-- [LeetCode](https://leetcode.com)
-- [HackerRank](https://www.hackerrank.com)
+- [Data Structures and Algorithms for Tech Interviews ](https://shazaali.substack.com/s/data-structures-algorithm) :  Each lesson in this blog section is divided into two distinct parts:
+
+Core Concepts: This section delves into the theoretical aspects, providing a solid understanding of the fundamental principles of data structures and algorithms.
+
+Logic and Technique: Here, I focus on the application of these concepts. This part is all about the 'how-to' techniques to tackle essential problems.
+
+This dual-approach ensures a holistic understanding—bridging the gap between theory and practice.
+Stay tuned for regular updates!
 
 ## Contact
 
 - **Email:** [shaza.aly@gmail.com]
 - **Discord:** [Discord Link]
-- **Twitter:** [[Twitter Handle](https://twitter.com/ShazaAlyOthman)]
-- **LinkedIn:** [[LinkedIn Profile](https://www.linkedin.com/in/shazaali/)]
+- **Twitter:** [[Twitter](https://twitter.com/ShazaAlyOthman)]
+- **LinkedIn:** [[LinkedIn](https://www.linkedin.com/in/shazaali/)]
 
 ---
 
