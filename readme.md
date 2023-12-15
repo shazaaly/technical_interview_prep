@@ -59,6 +59,8 @@ Stay tuned for regular updates!
 - **Discord:** [Discord Link]
 - **Twitter:** [[Twitter](https://twitter.com/ShazaAlyOthman)]
 - **LinkedIn:** [[LinkedIn](https://www.linkedin.com/in/shazaali/)]
+- **GPT:** [[chatGPT](https://chat.openai.com/g/g-btl4eTZS8-data-structures-and-algorithms-explainer-for-faang)]
+
 
 ---
 
