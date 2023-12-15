@@ -55,10 +55,10 @@ Stay tuned for regular updates!
 
 ## Contact
 
-- **Email:** [shaza.aly@gmail.com]
+- **Email:** [shaza.aly@gmail.com] [cv.bouhlaoui@gmail.com]
 - **Discord:** [Discord Link]
-- **Twitter:** [[Twitter](https://twitter.com/ShazaAlyOthman)]
-- **LinkedIn:** [[LinkedIn](https://www.linkedin.com/in/shazaali/)]
+- **Twitter:** [[Shaza Ali](https://twitter.com/ShazaAlyOthman)] [[Mounssif nuuX BOUHLAOUI](https://twitter.com/nuux_tv)]
+- **LinkedIn:** [[Shaza Ali](https://www.linkedin.com/in/shazaali/)] [[Mounssif nuuX BOUHLAOUI](https://www.linkedin.com/in/mounssif-bouhlaoui-25934570/)]
 - **GPT:** [[chatGPT](https://chat.openai.com/g/g-btl4eTZS8-data-structures-and-algorithms-explainer-for-faang)]
 
 
