@@ -1,3 +1,4 @@
+![Alt text](./tech.png)
 
 # Technical Interview Mastery: 2024 Edition
 
