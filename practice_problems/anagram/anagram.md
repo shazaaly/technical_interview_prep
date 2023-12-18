@@ -5,8 +5,6 @@
 
 <p>Let's dive into a Python example to determine if two strings are anagrams using a hash method. The hash method involves creating a frequency map (or count) of each character in both strings and then comparing these maps.</p>
 
-<p>Certainly! Let's dive into a Python example to determine if two strings are anagrams using a hash method. The hash method involves creating a frequency map (or count) of each character in both strings and then comparing these maps.
-
 ### Methodology:
 1. **Initialize Frequency Maps**: For each string, we create a dictionary where each key is a character, and its value is the number of times it appears in the string.
 
