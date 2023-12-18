@@ -66,3 +66,33 @@ print(are_anagrams(str1, str2))  # This will print True
 ```
 
 This code will return `True` for the strings `"listen"` and `"silent"` since they are anagrams. It is a straightforward and efficient way to check for anagrams in coding interviews.</p>
+
+<p>
+
+```freq_map1[char] = freq_map1.get(char, 0) + 1``
+<strong>Explanation</strong>
+
+freq_map1: This is a Python dictionary used to store the frequency (or count) of each character in the string.
+
+char: This is the current character in the string that we are examining.
+
+freq_map1.get(char, 0): The get method is a Python dictionary method. It is used here to retrieve the current count of the character char in the dictionary freq_map1.
+If char does not exist in the dictionary, the get method returns 0 (as specified by the second argument of the get method). This is a convenient way to handle characters that have not been seen before without raising an error.
+
++ 1: We add 1 to the count to update the frequency of the character char. This is because we have encountered char one more time in the string.
+
+<h4>Example Iteration</h4>
+Let's consider the string "listen" and see how the dictionary freq_map1 gets updated as we iterate through it:
+
+For the first character l:
+
+freq_map1.get('l', 0) returns 0 (since 'l' is not yet in the dictionary).
+We add 1 to it, so freq_map1['l'] becomes 1.
+For the next character i:
+
+freq_map1.get('i', 0) returns 0.
+We add 1 to it, so freq_map1['i'] becomes 1.
+Suppose we are now at a second occurrence of a character, say l again:
+
+freq_map1.get('l', 0) now returns 1 (since 'l' is already in the dictionary with a count of 1).
+We add 1 to it, so freq_map1['l'] becomes 2.</p>
