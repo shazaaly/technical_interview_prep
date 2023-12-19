@@ -1,41 +1,60 @@
 <p>
 
-Implementation of the `lengthOfLongestSubstring` method uses a sliding window approach to find the length of the longest substring without repeating characters. Let's break down how it works:
+Let's walk through each iteration of the method `lengthOfLongestSubstring` for the string `"abcabcbb"` using the sliding window approach. I'll detail what happens in the variables `res`, `left`, `right`, and `charSet`.
 
-### Code Breakdown:
+### Initial Setup
+- `res` (result) starts at `0`.
+- `left` (start of the window) starts at `0`.
+- `charSet` (to track unique characters in the current window) starts as an empty set.
 
-- `res`: This variable stores the result, which is the length of the longest substring without repeating characters found so far.
-- `left`: This is the starting index of the current window (substring) being considered.
-- `charSet`: A set used to store characters that are currently in the window. It helps in quickly checking whether a character is repeating in the current window.
+### Iteration Overview
+For `s = "abcabcbb"`:
 
-### Iteration Through the String:
+1. **First Iteration (`right = 0`)**:
+   - `s[right]` is `'a'`.
+   - `'a'` is not in `charSet`, so add `'a'` to `charSet`.
+   - Update `res` to `max(1 - 0 + 1, 0) = 1`.
 
-- We iterate through the string using a variable `right` which represents the ending index of the current window.
+2. **Second Iteration (`right = 1`)**:
+   - `s[right]` is `'b'`.
+   - `'b'` is not in `charSet`, so add `'b'` to `charSet`.
+   - Update `res` to `max(2 - 0 + 1, 1) = 2`.
 
-### Checking for Repeated Characters:
+3. **Third Iteration (`right = 2`)**:
+   - `s[right]` is `'c'`.
+   - `'c'` is not in `charSet`, so add `'c'` to `charSet`.
+   - Update `res` to `max(3 - 0 + 1, 2) = 3`.
 
-- Inside the loop, there is a `while` loop: `while s[right] in charSet`. This loop checks if the character at the current `right` index is already in the `charSet`. If it is, this means we have a repeating character, and we need to adjust the window.
-- We remove characters from the set starting from the `left` index and move `left` forward until the character at `right` is no longer in the set. This step ensures that the substring `s[left:right+1]` has all unique characters.
+4. **Fourth Iteration (`right = 3`)**:
+   - `s[right]` is `'a'`.
+   - `'a'` is in `charSet`, so we enter the while loop. Remove `'a'` from `charSet` and increment `left` to `1`.
+   - Now `'a'` is not in `charSet`, so add `'a'` to `charSet`.
+   - Update `res` to `max(4 - 1 + 1, 3) = 3`.
 
-### Updating `res`:
+5. **Fifth Iteration (`right = 4`)**:
+   - `s[right]` is `'b'`.
+   - `'b'` is in `charSet`, so remove characters starting from `left` until `'b'` is removed. After removing `'b'`, `left` is `2`.
+   - Add `'b'` to `charSet`.
+   - Update `res` to `max(5 - 2 + 1, 3) = 3`.
 
-- After adjusting the `left` index (if necessary), we add the character at `right` to `charSet` and calculate the length of the current window (substring) as `right - left + 1`.
-- We update `res` with the maximum of the current window's length and the previous value of `res`.
+6. **Sixth Iteration (`right = 5`)**:
+   - `s[right]` is `'c'`.
+   - `'c'` is in `charSet`, so repeat the process as in the fifth iteration. After removing `'c'`, `left` is `3`.
+   - Add `'c'` to `charSet`.
+   - Update `res` to `max(6 - 3 + 1, 3) = 3`.
 
-### Returning the Result:
+7. **Seventh Iteration (`right = 6`)**:
+   - `s[right]` is `'b'`.
+   - `'b'` is not in `charSet` after the previous iterations, so add `'b'` to `charSet`.
+   - Update `res` to `max(7 - 3 + 1, 3) = 4`.
 
-- After the loop completes, `res` contains the length of the longest substring without repeating characters, and it is returned.
+8. **Eighth Iteration (`right = 7`)**:
+   - `s[right]` is `'b'`.
+   - `'b'` is in `charSet`, so remove characters starting from `left` until `'b'` is removed. After removing `'b'`, `left` is `4`.
+   - Add `'b'` to `charSet`.
+   - Update `res` to `max(8 - 4 + 1, 4) = 4`.
 
-### Example Usages:
-
-1. `"abcabcbb"`:
-   - The longest substring without repeating characters is `"abc"`, which has a length of 3.
-
-2. `"bbbbb"`:
-   - The longest substring without repeating characters is just `"b"`, as all characters are the same. So, the length is 1.
-
-3. `"pwwkew"`:
-   - The longest substring without repeating characters is `"wke"`, which has a length of 3.
-
+### Conclusion
+After the final iteration, `res` holds the length of the longest substring without repeating characters, which is `4` in this case. The longest substring without repeating characters for `"abcabcbb"` is `"abcb"`, which has a length of 4.
 The sliding window approach efficiently manages the checking of substrings by dynamically adjusting the window size as it encounters repeating characters. This approach is particularly effective for this type of problem, as it minimizes the need to repeatedly scan the entire string, leading to an overall time complexity of O(N), where N is the length of the string.
 </p>
