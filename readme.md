@@ -38,7 +38,7 @@ We welcome contributions from everyone. Here's how you can contribute:
 ## Study Group Details
 
 - **Start Date:** January 1, 2024
-- **Platform:** [Discord Link] (https://forms.gle/7YbyabHY5vqGQt989)
+- **Platform:** [Discord Link](https://forms.gle/7YbyabHY5vqGQt989)
 - **Schedule:** [Google Calendar](https://calendar.google.com/calendar/u/0?cid=NmU3YjQ3YzY4NTk5MTcxNGZkNTBlNWRiMzQwOTRmYTliZTc0OTljMmU5ZDUwNDAyNmMwMTAzOWJlMmVjMWU2M0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 ## Resources
@@ -56,7 +56,7 @@ Stay tuned for regular updates!
 ## Contact
 
 - **Email:** [shaza.aly@gmail.com] [cv.bouhlaoui@gmail.com]
-- **Discord:** [Discord Link] (https://forms.gle/7YbyabHY5vqGQt989)
+- **Discord:** [Discord Link](https://forms.gle/7YbyabHY5vqGQt989)
 - **Twitter:** [[Shaza Ali](https://twitter.com/ShazaAlyOthman)] [[Mounssif nuuX BOUHLAOUI](https://twitter.com/nuux_tv)]
 - **LinkedIn:** [[Shaza Ali](https://www.linkedin.com/in/shazaali/)] [[Mounssif nuuX BOUHLAOUI](https://www.linkedin.com/in/mounssif-bouhlaoui-25934570/)]
 - **GPT:** [[chatGPT](https://chat.openai.com/g/g-btl4eTZS8-data-structures-and-algorithms-explainer-for-faang)]
