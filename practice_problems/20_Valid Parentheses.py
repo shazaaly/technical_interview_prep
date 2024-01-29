@@ -6,7 +6,7 @@ def isValid(s):
     """
     openings = '({['
 
-    stack = []
+    stack = ['(']
     for bracket in s:
         if bracket in openings:
             stack.append(bracket)
@@ -16,9 +16,11 @@ def isValid(s):
            bracket == '}' and stack[-1] == '{' or \
            bracket == ']' and stack[-1] == '[':
             stack.pop()
+        
+
     return not stack
                   
             
 print(isValid("()[]{}"))
 print(isValid("([]{}"))
-print(isValid("()[{}"))
+print(isValid("(])"))  # not handled
